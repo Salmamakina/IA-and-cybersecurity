@@ -1,0 +1,132 @@
+footer {
+    background-color: rgb(57, 176, 184); /* Bleu acier clair */
+    color: #defbff; /* Light blue text */
+    width: 2270px;
+    box-sizing: border-box; /* Inclut padding et border dans la largeur */
+    top: 97vh;
+    position:absolute;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-around;
+    height: 360px;
+  }
+  
+  .footer-section1 {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .footer-section1 img {
+    width: 180px; 
+    height: 200px;
+    margin-left: 36%;
+    margin-top: 1px;
+  }
+  
+  .footer-section1 h2 {
+    margin-top: 0;
+    font-size: 60px;
+    margin-left: 24%;
+    margin-bottom: 30px;
+  }
+  
+  
+  .footer-section1 ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-section2 li {display:flex;}
+    .dbach{
+        margin-left: 25%;
+    }
+  .footer-section2 {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .footer-section2 h2 {
+    margin-top: 9px;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-left: 27%;
+    margin-bottom: 10px;
+  }
+  .footer-section2 img {
+    width: 60px; 
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+  .footer-section2  a {
+    font-size: 35px;
+    color: black;
+    display: block;
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+  
+  .footer-section3 {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .footer-section3 h2 {
+    margin-top: 12px;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-left: 27%;
+    margin-bottom: 10px;
+  }
+  .footer-section3  p {
+    font-size: 27px;
+    color: black;
+    display: block;
+    margin-top: 25px;
+    margin-left: 0px;
+  }
+  .common-logo-size img {
+    width: 40px; 
+    height: 50px; 
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-left: 25%;
+  }
+  .common-logo-size li{
+    display:flex;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    background-color: rgb(57, 176, 184);
+    color: black;
+    border-top: 2.5px solid black;
+    padding: 20px;
+    height: 90px;
+  }
+  
+  .footer-bottom div a img {
+    width: 50px; /* Adjust size as needed */
+    margin-bottom: 15px;
+    margin-right: 35px;
+  }
+
+  .copyrights{
+    display: flex;
+    margin-left: 40%;
+  }
+  
+  .copyrights img{
+    width: 28px;
+    height: 25px;
+    margin-right: 13px;
+  }
+
+  .copyrights p{
+    font-size: 25px;
+    margin-top: 1px;
+  }

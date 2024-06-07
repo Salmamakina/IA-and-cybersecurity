@@ -1,0 +1,38 @@
+<div class="details-container">
+    <div class="header">
+        <app-header2></app-header2>
+    </div>
+    <img class="pic" src='../../assets/details.png' alt="details">
+    <button routerLink="/alert-ddos"><img class="back" src='../../assets/back.png' alt="back"></button>
+    <div class="body">
+        <h1>Alert Details - DDOS Attack Detected</h1>
+        <div class="content">
+            <div class="info1">
+                <h2>Attack Details</h2>
+                <div class="hi">
+                <p>Destination Port: 80 </p>
+                <p>Flow Duration: 8141809 </p>
+                <p>Total Forward Packets: 5 </p>
+                <p>Total Length of Fwd Packets: 30 </p>
+                <p>Flow Bytes/s: 0.614114136 </p>
+                <p>Flow Packets/s: 2035452.25 </p>
+                <p>FIN Flag Count: 0 </p>
+                <p>SYN Flag Count: 0 </p>
+                <p>PSH Flag Count: 0 </p>
+                <p>ACK Flag Count: 1 </p>
+                
+            </div></div>
+            <div class="vertical-line">
+            <div class="info2"><div class="hello">
+                <h3>Model Insights</h3>
+                <p>Attack probability: 0.84 </p>
+                <p>Benign probability: 0.16 </p>
+            </div></div>
+        </div>
+    </div>
+    <div class="buttons">
+        <div class="investigate-btn"><a href="https://www.cloudflare.com/ddos/" target="_blank">Countermeasures</a></div>
+        <div class="feedback-btn"><button routerLink="/feedback">Give Feedback </button></div>
+    </div>
+    <app-footer></app-footer>
+</div>

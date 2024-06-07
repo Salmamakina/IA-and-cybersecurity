@@ -1,0 +1,30 @@
+<div class="login-container">
+    <div class="header">
+        <app-header1></app-header1>
+    </div>
+    <img class="pic" src='../../assets/login.png' alt="login">
+    <h1>Hey , Welcome Back !</h1>
+    <form>
+        <div class="username">
+            <img class="icon" src='../../assets/loginuser.png' alt="loginuser">
+            <input type="email" id="email" name="email" placeholder="Email" required [(ngModel)]="email">
+        </div>
+        <div class="password">
+            <img class="icon" src='../../assets/loginpwd.png' alt="loginpwd">
+            <input type="password" id="password" name="password" placeholder="Password" required [(ngModel)]="password">
+            <div class="password-actions">
+                <label>
+                    <input type="checkbox" id="showPasswordCheckbox" name="showPasswordCheckbox">
+                    Show Password
+                </label>
+                <span class="forgot-password" id="forgotPasswordButton">Forgot Password?</span>
+            </div>            
+        </div>
+        <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+        <div class="btn">
+            <button id="btn" type="login" (click)="login()">LOGIN</button>
+            <span class="already" id="already" >Don't have an account ? <span class="signin">Sign up !</span></span>
+        </div>
+    </form>
+    <app-footer></app-footer>
+</div>
